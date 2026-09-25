@@ -6,50 +6,84 @@
     border:border-box;
     
 }
+/* navbar css */
 
 .navbar{
     height:60px;
     background-color:#0f1111;
     color:white;
+    display:flex;
+    align-items: center;
 }
 
-
 .nav-logo{
-     height:60px;
+     height:50px;
      width:100px;
 }
 .logo{
-    height:60px;
+    height:50px;
     width:100%;
     background-image:url("images/amazon_logo.png");
-    background-size:contain;
+    background-size:cover;
 }
 
+.border{
+    border:2px solid transparent;
+}
 
+.border:hover{
+     border:2px solid white;
 
+}
 
+.nav-ad{
+    
+    font-size:0.7rem;   /*setting the font size to rem for responsiveness*/
+    color:#CCCCCC;
+    
+}
+#deliverto{
 
+    margin-left:17px;
+    /* margin-top:10px; */
+    /* position:relative;
+    left:20px;  */
 
+    margin-left affects the normal layout, while position: relative; left: 
+    only visually moves the element without changing its original layout position
 
+margin =changes where the element participates in the layout.
+relative + left = changes where the element is visually displayed without chnaging the  normal layout position
+    
+    */
+}
 
+.nav-address-icon{
+    display: flex;
+    align-items:center;
+    
+     font-size:1rem;
+      color:#FFFFFF;
+}
 
-
-
-
-
-/* .navbar{
-height:60px;
-    top:10px;
-    /* background-color: #0f1111;
-    color:white; */
+/* box 3 of navbar */
+.search{
     display:flex;
-     font-size:14px;
-      text-align:center;
-      justify-content: space-around;
-      align-items: center;
-
-
 }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
