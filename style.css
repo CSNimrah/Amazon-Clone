@@ -14,6 +14,7 @@
     color:white;
     display:flex;
     align-items: center;
+    font-size:1rem;
 }
 
 .nav-logo{
@@ -40,6 +41,7 @@
     
     font-size:0.7rem;   /*setting the font size to rem for responsiveness*/
     color:#CCCCCC;
+    padding:8px;
     
 }
 #deliverto{
@@ -49,13 +51,14 @@
     /* position:relative;
     left:20px;  */
 
-    margin-left affects the normal layout, while position: relative; left: 
+
+    /* margin-left affects the normal layout, while position: relative; left: 
     only visually moves the element without changing its original layout position
 
 margin =changes where the element participates in the layout.
-relative + left = changes where the element is visually displayed without chnaging the  normal layout position
+relative + left = changes where the element is visually displayed without chnaging the  normal layout position */
     
-    */
+    
 }
 
 .nav-address-icon{
@@ -68,9 +71,39 @@ relative + left = changes where the element is visually displayed without chnagi
 
 /* box 3 of navbar */
 .search{
+    
     display:flex;
 }
 
+/* .all_list{
+  height:40px;  
+} */
+#all_list{
+height:40px;
+width:50px;
+background-color:#E6E6E6;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.searchbar{
+    display:flex;
+    width:450px;
+}
+#input_search{
+    height: 40px;
+    width:380px;
+}
+
+#search_icon{
+    background-color:#febd69;
+    text-align:center;
+    font-size:35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+
+}
     
 
 

@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div class="navbar">  
-                            <!-- TASK   TASK TASK  -->
-              <!-- then add logo from font awesom that will acts as a BUTTON 
+        <div class="navbar">
+            <!-- TASK   TASK TASK  -->
+            <!-- then add logo from font awesom that will acts as a BUTTON 
                      /*setting the font size to rem for responsiveness*/
                      also chedk the meaning of " border:border-box;"  gpt said me to
                      write box-sizing indstead of border-->
+
+                     <-- i am thinking to use media query for the search abr increase in size ,
+                     but think about it ok -->
 
 
 
             <div class="nav-logo border">
                 <div class="logo">
-                    </div>
+                </div>
             </div>
             <div class="nav-ad border">
                 <p id="deliverto">Deliver to</p>
@@ -29,52 +36,41 @@
                     <i class="fa-solid fa-location-dot" style="color: rgb(255, 255, 255);"></i>
                     <p>Oman</p>
                 </div>
+            </div>
+
+            <div class="search">
+
+                <div class="all">
+                    <label for id="all_list"></label>
+                    <input type="list" id="all_list" list="productname" placeholder:All>
+                    <datalist id="productname">
+                        <option>bag</option>
+                        <option>clothes</option>
+                        <option>shoes</option>
+                    </datalist>
                 </div>
 
-                <div class="search">
+                <div class="searchbar">
+                    <input type="text" id="input_search" placeholder="Search Amazon">
 
-                    <div class="all">
-                        <label for id="all_list"></label>
-                        <input type="list" id="all_list" list="productname" placeholder:All>
-                        <datalist id="productname">
-                            <option>bag</option>
-                            <option>clothes</option>
-                            <option>shoes</option>
-                        </datalist>
-                        </div>
+                    <button type=submit id="search_icon"><i class="fa-brands fa-sistrix" style="color: #000000;"></i></button>
+                </div>
+            </div>
 
-                        <div class="searchbar">
-                            <input type="text" placholder="Search Amazon">
-                        </div>
-                    </div>
 
-                  
-                
 
-               
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
-        </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+</html>
