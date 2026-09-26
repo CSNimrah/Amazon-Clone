@@ -18,9 +18,9 @@
             <!-- then add logo from font awesom that will acts as a BUTTON 
                      /*setting the font size to rem for responsiveness*/
                      also chedk the meaning of " border:border-box;"  gpt said me to
-                     write box-sizing indstead of border-->
+                     write box-sizing indstead of border
 
-                     <-- i am thinking to use media query for the search abr increase in size ,
+                     i am thinking to use media query for the search abr increase in size ,
                      but think about it ok -->
 
 
@@ -30,32 +30,83 @@
                 </div>
             </div>
             <div class="nav-ad border">
-                <p id="deliverto">Deliver to</p>
+                <p class="deliverto">Deliver to</p>
 
                 <div class="nav-address-icon">
-                    <i class="fa-solid fa-location-dot" style="color: rgb(255, 255, 255);"></i>
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
                     <p>Oman</p>
                 </div>
             </div>
 
+            <!-- box 3 -->
+
             <div class="search">
 
-                <div class="all">
-                    <label for id="all_list"></label>
-                    <input type="list" id="all_list" list="productname" placeholder:All>
-                    <datalist id="productname">
-                        <option>bag</option>
+                
+                    <!-- <label for id="all_list"></label>
+                    <input type="list" id="all_list" list="productname" placeholder:All> -->
+                    <select id="all_list">
+                        <option>All</option>
                         <option>clothes</option>
                         <option>shoes</option>
-                    </datalist>
-                </div>
+                    </select>
+                
 
-                <div class="searchbar">
+                
                     <input type="text" id="input_search" placeholder="Search Amazon">
 
                     <button type=submit id="search_icon"><i class="fa-brands fa-sistrix" style="color: #000000;"></i></button>
-                </div>
+                
+
             </div>
+            
+            <!-- box 4 -->
+             <div class="box4 border">
+                <i class="fa-solid fa-globe" style="color: #ffffff;"></i>
+                <select id="language">
+                    <option>EN</option>
+                </select>
+             </div>
+
+             <div class="nav-signin border">
+                <p class="hello">Hello, sign in</p>
+<p class="nav-address-icon">Account & Lists</p>
+             </div>
+
+             <div class=" nav-signin border ">
+                <p class="hello">Returns</p>
+<p class="nav-address-icon">& Orders</p>
+             </div>
+
+             <div class="cart_logo border">
+                
+                <i class="fa-solid fa-cart-shopping" style="color: #ffffff; "></i>
+                <p class="nav-address-icon"> Cart</p>
+             </div>
+             </div>
+
+             <!-- part 2 of the page -->
+<div class="bar2">
+    
+<ul class="list">
+    
+    <li class ="list_items border"><i class="fa-solid fa-bars" style="color: #ffffff;"></i><a href="#">All</a></li>
+    <li class ="list_items border "><a href="#">Amazon Bazaar</a></li>
+    <li class ="list_items border"><a href="#">Prime Video</a></li>
+    <li class ="list_items border"><a href="#">Coupons</a></li>
+    <li class ="list_items border"><a href="#">Customer Service</a></li>
+    <li class ="list_items border"><a href="#">Today's Deals</a></li>
+    <li class ="list_items border"><a href="#">Registry</a></li>
+    <li class ="list_items border"><a href="#">Gift Cards</a></li>
+    <li class ="list_items border"><a href="#">Sell</a></li>
+  </ul>
+</div>
+</header>
+
+<div class="hero_image">
+    <p id="hero_p">You are on <a href=#>amazon.com</a>. You can also shop on Amazon Oman for millions of products with fast local delivery. Click here to go to<a href=#>amazon.in</a></p>
+
+</div>        
 
 
 
@@ -63,14 +114,5 @@
 
 
 
-
-
-
-
-
-
-
-
-        </div>
 
 </html>
