@@ -3,7 +3,7 @@
     margin:0px;
     padding:0px;
     font-family:Arial;
-    border:border-box;
+    border:border-box; /*Includes padding and border within the element's specified width and height.*/
    
     
 }
